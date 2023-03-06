@@ -1,0 +1,23 @@
+.main {
+    color: var(--color-white);
+}
+
+.strikethrough {
+    position: relative;
+}
+  
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 5px solid;
+    border-color: var(--color-red);
+
+    -webkit-transform:rotate(-9deg);
+    -moz-transform:rotate(-9deg);
+    -ms-transform:rotate(-9deg);
+    -o-transform:rotate(-9deg);
+    transform:rotate(-9deg);
+}

@@ -12,7 +12,12 @@ module.exports = {
       'ascent': '#A27B5C',
       'black': '#000',
       'light': '#B5B5B5',
+      'red': '#CF1D1D',
     },
+    fontFamily: {
+      consolas: ['Inconsolata', 'monospace'],
+      rockSalt: ['Rock Salt', 'cursive']
+    }
   },
   plugins: [],
 }
